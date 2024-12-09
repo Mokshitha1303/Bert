@@ -1,11 +1,11 @@
-# Bert
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="BERT-Based Question Answering Model">
-    <meta name="author" content="<Your_Name>">
+    <meta name="author" content="Mokshitha Mohan">
 
 </head>
 <body>
@@ -80,10 +80,10 @@
 
 <h2>How to Use?</h2>
         <p>Clone the repository and follow the instructions in the code files to run the model on your own data.</p>
-        <pre><code>git clone https://github.com/yourusername/bert-question-answering.git</code></pre>
+        <pre><code>https://github.com/Mokshitha1303/Bert/blob/main/BERT_QA.ipynb</code></pre>
 
  <h2>Author</h2>
-        <p>Developed by <strong>&lt;Your_Name&gt;</strong>. Feel free to reach out for queries or suggestions.</p>
+        <p>Developed by <strong>&lt;Mokshitha Mohan&gt;</strong>. Feel free to reach out for queries or suggestions.</p>
 
   <h2>License</h2>
         <p>This project is licensed under the MIT License.</p>
