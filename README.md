@@ -83,11 +83,9 @@
         <pre><code>https://github.com/Mokshitha1303/Bert/blob/main/BERT_QA.ipynb</code></pre>
 
  <h2>Author</h2>
-        <p>Developed by <strong>&lt;Mokshitha Mohan&gt;</strong>. Please feel free to reach out for any questions or suggestions.</p>
+        <p>Developed by <strong>Mokshitha Mohan</strong>. Please feel free to reach out for any questions or suggestions.</p>
 
-  <h2>License</h2>
-        <p>This project is licensed under the MIT License.</p>
-
+ 
 <h2>Contributing</h2>
         <p>Contributions are welcome! Please fork this repository and submit a pull request for improvements or bug fixes.</p>
     </div>
