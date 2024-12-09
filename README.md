@@ -62,11 +62,10 @@
     </style>
 </head>
 <body>
-    <header>
-        <h1>Question Answering with BERT-Based Model</h1>
-    </header>
-
-    <div class="container">
+   <header> 
+<h1>Question Answering with BERT-Based Model</h1>
+   </header>
+<div class="container">
         <h2>Features</h2>
         <ul>
             <li>Implements a <strong>question-answering pipeline</strong> using a pre-trained model.</li>
@@ -74,33 +73,32 @@
             <li>Visualizes the results using <strong>DataFrames</strong>.</li>
         </ul>
 
-        <h2>Prerequisites</h2>
+<h2>Prerequisites</h2>
         <p>Ensure you have Python 3.7+ and the following libraries installed:</p>
         <pre><code>pip install torch transformers pandas</code></pre>
 
-        <h2>Code Overview</h2>
+ <h2>Code Overview</h2>
 
-        <h3>Import Libraries</h3>
-        <pre><code>import torch
+<h3>Import Libraries</h3>
+ <pre><code>import torch
 import transformers
 import pandas as pd
 from transformers import AutoModelForQuestionAnswering, AutoTokenizer, pipeline
         </code></pre>
 
-        <h3>Load the Model and Tokenizer</h3>
+<h3>Load the Model and Tokenizer</h3>
         <pre><code>model_name = 'deepset/roberta-base-squad2'
 model = AutoModelForQuestionAnswering.from_pretrained(model_name)
 tokenizer = AutoTokenizer.from_pretrained(model_name)
         </code></pre>
 
-        <h3>Define Input Questions and Contexts</h3>
+ <h3>Define Input Questions and Contexts</h3>
         <pre><code>QA_input = [
     {'question': 'Why is conversion important?',
      'context': 'The option to convert models between FARM and transformers gives freedom to the user and lets people easily switch between frameworks.'},
     {'question': 'How many programming languages does BLOOM support?',
      'context': 'BLOOM has 176 billion parameters and can generate text in 46 languages and 13 programming languages.'}
 ]</code></pre>
-
         <h3>Inference (Manual Decoding)</h3>
         <pre><code># Question 1
 inputs0 = tokenizer(QA_input[0]['question'], QA_input[0]['context'], return_tensors="pt")
@@ -113,7 +111,7 @@ answer = tokenizer.decode(answer_tokens)
 print(f"Q: {QA_input[0]['question']}\nA: {answer}\n")
         </code></pre>
 
-        <h3>Inference (Pipeline)</h3>
+<h3>Inference (Pipeline)</h3>
         <pre><code>qa = pipeline('question-answering', model=model_name, tokenizer=model_name)
 
 output_0 = qa(question=QA_input[0]['question'], context=QA_input[0]['context'])
@@ -123,7 +121,7 @@ print(output_0)
 print(output_1)
         </code></pre>
 
-        <h2>Output</h2>
+ <h2>Output</h2>
         <h3>Example Questions and Answers:</h3>
         <ul>
             <li><strong>Question:</strong> Why is conversion important?</li>
@@ -134,17 +132,16 @@ print(output_1)
             <li><strong>Answer:</strong> 13 programming languages</li>
         </ul>
 
-        <h2>Author</h2>
+ <h2>Author</h2>
         <p>Developed by <strong>&lt;Your_Name&gt;</strong>. Feel free to reach out for queries or suggestions.</p>
 
-        <h2>License</h2>
+ <h2>License</h2>
         <p>This project is licensed under the MIT License.</p>
 
-        <h2>Contributing</h2>
+<h2>Contributing</h2>
         <p>Contributions are welcome! Please fork this repository and submit a pull request for any improvements or bug fixes.</p>
     </div>
-
-    <footer>
+<footer>
         <p>&copy; 2024 <Your_Name>. All rights reserved.</p>
     </footer>
 </body>
