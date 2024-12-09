@@ -16,11 +16,11 @@
  <div class="container">
         <h2>What Does This Model Do?</h2>
         <p>
-            This project demonstrates a **Question Answering** model based on <strong>BERT (Bidirectional Encoder Representations from Transformers)</strong>. 
-            The model is designed to provide answers to specific questions based on a given context.
+            This project demonstrates a <strong>Question Answering</strong> model based on <strong>BERT (Bidirectional Encoder Representations from Transformers)</strong>. 
+            The model is designed to answer specific questions based on a given context.
         </p>
         <p>
-            By leveraging the power of the **RoBERTa-base fine-tuned on SQuAD2**, the model accurately identifies the most relevant span of text in the context that answers the given question.
+            By leveraging the power of the <strong>RoBERTa-base fine-tuned on SQuAD2</strong>, the model accurately identifies the most relevant span of text in the context that answers the given question.
         </p>
 
 <h2>Key Features</h2>
@@ -40,7 +40,7 @@
                 <strong>Question:</strong> The query you want answered.
             </li>
             <li>
-                <strong>Context:</strong> A passage of text containing the information needed to answer the question.
+                <strong>Context:</strong> A text containing the information needed to answer the question.
             </li>
         </ul>
         <p>
@@ -79,17 +79,17 @@
         </ul>
 
 <h2>How to Use?</h2>
-        <p>Clone the repository and follow the instructions in the code files to run the model on your own data.</p>
+        <p>Clone the repository and follow the instructions in the code files to run the model on your data.</p>
         <pre><code>https://github.com/Mokshitha1303/Bert/blob/main/BERT_QA.ipynb</code></pre>
 
  <h2>Author</h2>
-        <p>Developed by <strong>&lt;Mokshitha Mohan&gt;</strong>. Feel free to reach out for queries or suggestions.</p>
+        <p>Developed by <strong>&lt;Mokshitha Mohan&gt;</strong>. Please feel free to reach out for any questions or suggestions.</p>
 
   <h2>License</h2>
         <p>This project is licensed under the MIT License.</p>
 
 <h2>Contributing</h2>
-        <p>Contributions are welcome! Please fork this repository and submit a pull request for any improvements or bug fixes.</p>
+        <p>Contributions are welcome! Please fork this repository and submit a pull request for improvements or bug fixes.</p>
     </div>
 
   <footer>
